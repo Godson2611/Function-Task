@@ -227,3 +227,71 @@
 // ***********************{  3nd QUESTION END  }*************************
 
 // **********{  4.Return all the palindromes in an array    }***********
+
+
+//------------------ traditional functions.
+
+// function palindrome (num) {
+//     let str = num.toString();
+//     let arr = str.split('');
+//     let reversed = arr.slice().reverse();
+
+//     if(arr.join('') === reversed.join('')){
+//         return true;
+//     }else{
+//         return false;
+//     }
+
+// }
+
+// console.log(palindrome(121));
+
+//----------------- Anonymous function.
+
+// const palindrome = function (num) {
+//     let str = num.toString();
+//     let arr = str.split('');
+//     let reversed = arr.slice().reverse();
+
+//     if(arr.join('') === reversed.join('')){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+
+// console.log(palindrome(121));
+
+//------------------ IIFE function.
+
+// (function(num){
+//     let str = num.toString();
+//     let arr = str.split('');
+//     let reversed = arr.slice().reverse();
+
+//     if(arr.join('') === reversed.join('')){
+//         console.log(true);
+//     }else{
+//         console.log(false);
+//     }
+// })
+// (123);
+
+//------------------ Arrow function.
+
+// const palindrome = (num) =>{
+
+//     let str = num.toString();
+//     let arr = str.split('');
+//     let reversed = arr.slice().reverse();
+
+//     if(arr.join('') === reversed.join('')){
+//         return true;
+//     }else{
+//         return false;
+//     }
+
+// }
+
+// console.log(palindrome(121));
+
